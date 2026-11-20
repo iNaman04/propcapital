@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Menu, X, Building2 } from 'lucide-react'
 
+
 const links = [
   { label: 'Platform', href: '#platform' },
   { label: 'How it works', href: '#workflow' },
