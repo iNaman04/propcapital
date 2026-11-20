@@ -68,7 +68,7 @@ export default function Navbar() {
         </button>
       </nav>
 
-      {/* Mobile menu */}
+     
       <div
         className={`overflow-hidden border-t border-ink/5 bg-cream/95 backdrop-blur-md md:hidden ${
           open ? 'max-h-96' : 'max-h-0'

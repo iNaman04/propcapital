@@ -48,7 +48,7 @@
     text-wrap: balance;
   }
 
-  /* Scroll reveal */
+  
   .reveal {
     opacity: 0;
     transform: translateY(22px);

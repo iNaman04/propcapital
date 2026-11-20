@@ -7,7 +7,7 @@ import CTA from './components/CTA.jsx'
 import Footer from './components/Footer.jsx'
 
 export default function App() {
-  // One shared scroll-reveal observer for every `.reveal` element on the page.
+  
   useEffect(() => {
     const items = document.querySelectorAll('.reveal')
     if (!('IntersectionObserver' in window)) {

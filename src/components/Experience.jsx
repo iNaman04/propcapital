@@ -75,7 +75,7 @@ const stats = [
 export default function Experience() {
   return (
     <>
-      {/* Problem → before/after framing */}
+      
       <section className="py-20 md:py-28">
         <div className="container-px">
           <div className="reveal mx-auto max-w-2xl text-center">
@@ -91,7 +91,7 @@ export default function Experience() {
           </div>
 
           <div className="reveal mt-14 grid gap-5 lg:grid-cols-2">
-            {/* Before */}
+            
             <div className="relative overflow-hidden rounded-4xl border border-ink/10 bg-white/60 p-8 md:p-10">
               <div className="flex items-center gap-3">
                 <span className="grid h-10 w-10 place-items-center rounded-xl bg-ink/5 text-ink/50">
@@ -124,7 +124,7 @@ export default function Experience() {
               </ul>
             </div>
 
-            {/* After */}
+           
             <div className="relative overflow-hidden rounded-4xl bg-ink p-8 text-cream shadow-lift md:p-10">
               <div className="pointer-events-none absolute -right-16 -top-16 h-56 w-56 rounded-full bg-forest-600/30 blur-3xl" />
               <div className="relative flex items-center gap-3">
@@ -160,10 +160,10 @@ export default function Experience() {
         </div>
       </section>
 
-      {/* How it works — interactive guided tour */}
+      
       <WorkflowShowcase />
 
-      {/* Who it's for */}
+    
       <section id="audience" className="py-20 md:py-28">
         <div className="container-px">
           <div className="reveal mx-auto max-w-2xl text-center">
@@ -198,7 +198,7 @@ export default function Experience() {
         </div>
       </section>
 
-      {/* Results + testimonial */}
+      
       <section id="results" className="py-20 md:py-28">
         <div className="container-px">
           <div className="overflow-hidden rounded-4xl border border-ink/8 bg-gradient-to-br from-forest-800 to-ink text-cream shadow-lift">
@@ -249,10 +249,6 @@ export default function Experience() {
   )
 }
 
-/* ------------------------------------------------------------------ */
-/*  Interactive "How it works" guided tour                             */
-/* ------------------------------------------------------------------ */
-
 const AUTO_MS = 6000
 
 function WorkflowShowcase() {
@@ -291,7 +287,7 @@ function WorkflowShowcase() {
         </div>
 
         <div className="reveal mt-14 grid gap-6 lg:grid-cols-[0.92fr_1.08fr] lg:gap-10">
-          {/* Left: step list */}
+         
           <ol className="flex flex-col gap-3">
             {steps.map((s, i) => {
               const Icon = s.icon
@@ -341,7 +337,7 @@ function WorkflowShowcase() {
                       </div>
                     </div>
 
-                    {/* auto-play progress bar */}
+                    
                     {isActive && !taken && (
                       <span className="absolute bottom-0 left-0 h-0.5 w-full bg-forest-100">
                         <span
@@ -356,10 +352,10 @@ function WorkflowShowcase() {
             })}
           </ol>
 
-          {/* Right: live preview panel */}
+          
           <div className="relative">
             <div className="overflow-hidden rounded-3xl border border-ink/10 bg-white shadow-lift">
-              {/* window chrome */}
+              
               <div className="flex items-center gap-2 border-b border-ink/8 bg-cream/70 px-5 py-3.5">
                 <span className="h-3 w-3 rounded-full bg-ink/15" />
                 <span className="h-3 w-3 rounded-full bg-ink/15" />
@@ -505,7 +501,7 @@ function StepPreview({ index }) {
     )
   }
 
-  // index === 3 — Measure & scale
+  
   const stages = [
     { label: 'New leads', count: 220, pct: 100 },
     { label: 'Qualified', count: 140, pct: 64 },

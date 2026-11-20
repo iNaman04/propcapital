@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 3000,
-    strictPort: true, // Optional: fails instead of picking another port if 3000 is busy
+    strictPort: true,
   },
 })

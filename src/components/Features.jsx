@@ -136,7 +136,6 @@ export default function Features() {
   )
 }
 
-/* ---- in-card visuals (each fills its card) ------------------------ */
 
 function Panel({ label, right, children }) {
   return (

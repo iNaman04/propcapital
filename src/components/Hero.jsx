@@ -15,7 +15,7 @@ const trustLogos = [
 export default function Hero() {
   return (
     <section id="top" className="relative overflow-hidden pt-28 md:pt-36">
-      {/* ambient background */}
+     
       <div className="pointer-events-none absolute inset-0 -z-10">
         <div className="absolute -left-40 top-0 h-[32rem] w-[32rem] rounded-full bg-forest-200/50 blur-3xl" />
         <div className="absolute -right-40 top-20 h-[30rem] w-[30rem] rounded-full bg-gold-300/30 blur-3xl" />
@@ -24,7 +24,7 @@ export default function Hero() {
 
       <div className="container-px">
         <div className="grid items-center gap-12 lg:grid-cols-[1.05fr_0.95fr]">
-          {/* Left: copy */}
+          
           <div className="reveal">
             <span className="eyebrow">
               <Sparkles className="h-3.5 w-3.5" />
@@ -85,13 +85,13 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Right: product mock */}
+        
           <div className="reveal relative">
             <HeroDashboard />
           </div>
         </div>
 
-        {/* trust marquee */}
+     
         <div className="reveal mt-16 md:mt-24">
           <p className="text-center text-xs font-semibold uppercase tracking-[0.2em] text-ink/40">
             The platform behind India&rsquo;s fastest-moving sales teams
@@ -117,7 +117,7 @@ export default function Hero() {
 function HeroDashboard() {
   return (
     <div className="relative mx-auto max-w-md">
-      {/* main card */}
+   
       <div className="rounded-4xl border border-ink/10 bg-white/80 p-5 shadow-lift backdrop-blur">
         <div className="flex items-center justify-between">
           <div>
@@ -175,7 +175,7 @@ function HeroDashboard() {
         </div>
       </div>
 
-      {/* floating card: AI call */}
+    
       <div className="absolute -left-6 -top-6 hidden animate-float rounded-2xl border border-ink/10 bg-ink p-4 text-cream shadow-lift sm:block">
         <div className="flex items-center gap-3">
           <span className="grid h-9 w-9 place-items-center rounded-xl bg-forest-600">
@@ -188,7 +188,7 @@ function HeroDashboard() {
         </div>
       </div>
 
-      {/* floating card: match */}
+    
       <div
         className="absolute -bottom-6 -right-5 hidden animate-float rounded-2xl border border-ink/10 bg-white p-4 shadow-lift sm:block"
         style={{ animationDelay: '1.5s' }}
